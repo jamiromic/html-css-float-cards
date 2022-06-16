@@ -7,12 +7,22 @@
 
 img {
     max-width: 100%;
-    width: 90px;
-    height: 90px;
 }
 
-header {
+.maintitle {
     text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.maintitle__title{
+    max-width: 900px;
+
+}
+
+.maintitle__text{
+    max-width: 900px;
+    
 }
 
 .container {
@@ -21,9 +31,19 @@ header {
 
 }
 
-.card {
+.col{
     float: left;
     width: calc(100% / 3);
+
+}
+
+.card {
+    float: left;
+    background-color: black;
+    color: white;
+    margin: 20px 10px;
+
+    
 }
 
 
@@ -33,3 +53,25 @@ header {
     display: table;
 }
 
+
+.card__image{
+    float: left;
+    width: 70px;
+    height: 60px;
+}
+
+.card__name{
+    display: inline-block;
+
+}
+
+.card__job{
+    display: inline-block;
+   
+
+}
+
+.card__mail{
+    display: inline-block;
+
+}
