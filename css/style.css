@@ -15,14 +15,14 @@ img {
     margin: 0 auto;
 }
 
-.maintitle__title{
+.maintitle__title {
     max-width: 900px;
 
 }
 
-.maintitle__text{
+.maintitle__text {
     max-width: 900px;
-    
+
 }
 
 .container {
@@ -31,7 +31,7 @@ img {
 
 }
 
-.col{
+.col {
     float: left;
     width: calc(100% / 3);
 
@@ -43,7 +43,7 @@ img {
     color: white;
     margin: 20px 10px;
 
-    
+
 }
 
 
@@ -54,24 +54,15 @@ img {
 }
 
 
-.card__image{
+.card__image {
     float: left;
     width: 70px;
     height: 60px;
 }
 
-.card__name{
-    display: inline-block;
-
-}
-
-.card__job{
-    display: inline-block;
-   
-
-}
-
-.card__mail{
+.card__name,
+.card__job,
+.card__mail {
     display: inline-block;
 
 }
